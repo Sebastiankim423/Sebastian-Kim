@@ -1,0 +1,45 @@
+# Office temp files
+2
+~$*.xlsx
+3
+~$*.xlsm
+4
+~$*.docx
+5
+~$*.pptx
+6
+ 
+7
+# macOS
+8
+.DS_Store
+9
+ 
+10
+# Windows
+11
+Thumbs.db
+12
+ 
+13
+# Backup files
+14
+*.tmp
+15
+*.bak
+16
+*~
+17
+ 
+18
+# Secrets
+19
+.env
+20
+*.key
+21
+*.pem
+22
+secrets/
+23
+private/
