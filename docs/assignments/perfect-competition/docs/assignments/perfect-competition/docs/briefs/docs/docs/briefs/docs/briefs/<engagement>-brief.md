@@ -7,7 +7,7 @@ status: committed
 hypothesis: "Tomato-heavy mix with most remaining beds allocated to mesclun"
 ---
 
-# <Engagement> — engagement brief
+# <Engagement> — Engagement brief
 
 ## The Problem 
 
