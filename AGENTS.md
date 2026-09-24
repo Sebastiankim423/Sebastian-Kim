@@ -4,7 +4,7 @@
 - MBA student at the University of Hawaiʻi at Mānoa
 - Interested in sports marketing, branding, business, and data analysis
 - Career goal: work in marketing for a sportswear company or professional basketball organization
-- 
+
 ## Work Preferences
 - Use clear and concise writing
 - Use bullet points whenever possible
