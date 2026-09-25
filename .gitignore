@@ -1,43 +1,23 @@
 # Office temp files
 ~$*.xlsx
 ~$*.xlsm
-
 ~$*.docx
-
 ~$*.pptx
 
- 
-
-# macOS
-
+ # macOS
 .DS_Store
 
- 
-
-# Windows
-
+ # Windows
 Thumbs.db
 
- 
-
-# Backup files
-
+ # Backup files
 *.tmp
-
 *.bak
-
 *~
 
- 
-
-# Secrets
-
+ # Secrets
 .env
-
 *.key
-
 *.pem
-
 secrets/
-
 private/
