@@ -4,7 +4,7 @@
 
 ### Bio Development
  
-Stage 1 Prompt:
+Prompt:
 Help write a 150-200 word professional bio for my GitHub portfolio.
  
 Result:
@@ -13,7 +13,7 @@ Produced a polished MBA student bio focused on sports marketing and business int
 Lesson:
 AI-generated drafts require personal editing to accurately reflect my experiences and goals.
 
-### Prompt
+### Stage 1 Prompt
 One page. State the farm's problem in your own words, and end on a hypothesis you can be shown wrong about — written and committed before the workbook exists.
 
 ### Critique / Feedback Received
@@ -24,7 +24,7 @@ One page. State the farm's problem in your own words, and end on a hypothesis yo
 - The explanation needs to connect the proposed mechanism to labor hours.
 
 ### Changes Made Based on the Critique
- 
+
 1. Bed allocation:
 I added specific bed counts for mesclun and carrots so that my hypothesis now includes all three crops.
 
