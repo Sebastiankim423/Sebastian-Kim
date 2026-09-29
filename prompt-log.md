@@ -4,7 +4,7 @@
 
 ### Bio Development
  
-Prompt:
+Stage 1 Prompt:
 Help write a 150-200 word professional bio for my GitHub portfolio.
  
 Result:
