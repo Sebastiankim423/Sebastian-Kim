@@ -7,7 +7,7 @@
 ### Prompt
 Help write a 150-200 word professional bio for my GitHub portfolio.
  
-### Result:
+### Result
 Produced a polished MBA student bio focused on sports marketing and business interests.
 
 Lesson:
