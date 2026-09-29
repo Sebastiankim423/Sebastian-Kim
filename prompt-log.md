@@ -49,10 +49,10 @@ Total beds = 32 + 12 + 20 = 64 beds.
 ### Labor Hours
 Labor hours = Number of beds x Labor hours required per bed
 
-Mesclun: 32 beds x 2.5 labor hours per bed = 80 hours
+- Mesclun: 32 beds x 2.5 labor hours per bed = 80 hours
  
-Carrots: 12 beds x 0.833 labor hours per bed = 9.996 hours
+- Carrots: 12 beds x 0.833 labor hours per bed = 9.996 hours
  
-Tomatoes: 20 beds x 1.25 labor hours per bed = 25 hours
+- Tomatoes: 20 beds x 1.25 labor hours per bed = 25 hours
  
-Total labor hours = 80 + 9.996 +  = 114.996 hours
+- Total labor hours = 80 + 9.996 +  = 114.996 hours
