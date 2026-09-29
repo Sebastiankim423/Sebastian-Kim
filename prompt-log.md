@@ -44,7 +44,7 @@ I expanded my explanation to show how the crop allocation affects the amount of 
  
 I hypothesize that allocating 32 beds to mesclun, 12 beds to carrots, and 20 beds to tomatoes will maximize seasonal profit. 
  
-Total beds = 32 + 12 + 20 = 64 beds.
+- Total beds = 32 + 12 + 20 = 64 beds.
 
 ### Labor Hours
 Labor hours = Number of beds x Labor hours required per bed
