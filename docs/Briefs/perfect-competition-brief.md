@@ -4,7 +4,7 @@ engagement: perfect-competition
 capability: marginal analysis
 date: 2026-09-07
 status: committed
-hypothesis: "Tomato-heavy mix with most remaining beds allocated to mesclun"
+hypothesis: "Mesclun-heavy mix with most remaining beds allocated to carrots"
 ---
 
 # <Engagement> — Engagement Brief
