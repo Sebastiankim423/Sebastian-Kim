@@ -34,11 +34,11 @@ Labor cost = rate × 36 × (1 + rate)^q
 
 - Mesclun: 30 beds x 2.5 labor hours per bed = 75 hours
  
-- Carrots: 12 beds x 0.833 labor hours per bed = 9.996 hours
+- Carrots: 20 beds x 0.833 labor hours per bed = 16.66 hours
  
-- Tomatoes: 20 beds x 1.25 labor hours per bed = 25 hours
+- Tomatoes: 7 beds x 1.25 labor hours per bed = 8.75 hours
  
-- Total labor hours = 80 + 9.996 +  = 109.996 hours
+- Total labor hours = 75 + 16.66 + 8.75 = 100.41 hours
 
 ## How I Would Know I Was Wrong
 
