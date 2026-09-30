@@ -32,11 +32,11 @@ Finally, I will subtract the $20,000 fixed cost from the total crop profit to de
 
 Labor hours = Labor(q)=q×hrs/wk/bed×36×(1+dim)
 
-- Mesclun: 30 beds x 2.5 labor hours per bed = 75 hours
+- Mesclun: 30 beds x 1.25 field hours x 36 weeks x (1+0.0125) = 1,366.88 hours
  
-- Carrots: 20 beds x 0.833 labor hours per bed = 16.66 hours
+- Carrots: 20 beds x 0.833 field hours x 36 weeks x (1+0.025) = 614.75 hours
  
-- Tomatoes: 7 beds x 1.25 labor hours per bed = 8.75 hours
+- Tomatoes: 7 beds x 2.5 field hours x 36 weeks x (1+0.010) = 693 hours
  
 - Total labor hours = 75 + 16.66 + 8.75 = 100.41 hours
 
