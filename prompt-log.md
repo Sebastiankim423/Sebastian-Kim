@@ -65,11 +65,11 @@ Labor hours = Number of beds x Labor hours required per bed
 
 ### Changes Made Based on the Critique
 
-1.Labor lines
+1.Labor lines:
 Redid the labor lines with the right rates, times 36 weeks and (1 + rate)^q, with updated bed numbers for each crop bed. 
 
-2. Move brief
+2. Move brief:
 Moved the engagement brief to docs/briefs/perfect-competition-brief.md
 
-3. Critique prompt
+3. Critique prompt:
 Added the critique prompt, word for word, to your Stage 1 entry in prompt-log.md.
