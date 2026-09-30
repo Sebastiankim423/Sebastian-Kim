@@ -38,7 +38,7 @@ Labor hours = Labor(q)=q×hrs/wk/bed×36×(1+dim)
  
 - Tomatoes: 7 beds x 2.5 field hours x 36 weeks x (1+0.010) = 693 hours
  
-- Total labor hours = 75 + 16.66 + 8.75 = 100.41 hours
+- Total labor hours = 1,366.88 hours + 614.75 hours + 693 hours = 2,674.63 hours
 
 ## How I Would Know I Was Wrong
 
