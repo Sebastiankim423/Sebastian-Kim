@@ -49,16 +49,27 @@ I hypothesize that allocating 32 beds to mesclun, 12 beds to carrots, and 20 bed
 ### Labor Hours
 Labor hours = Number of beds x Labor hours required per bed
 
-- Mesclun: 32 beds x 2.5 labor hours per bed = 80 hours
+- Mesclun: 30 beds x 1.25 field hours x 36 weeks x (1+0.0125) = 1,366.88 hours
  
-- Carrots: 12 beds x 0.833 labor hours per bed = 9.996 hours
+- Carrots: 20 beds x 0.833 field hours x 36 weeks x (1+0.025) = 614.75 hours
  
-- Tomatoes: 20 beds x 1.25 labor hours per bed = 25 hours
+- Tomatoes: 7 beds x 2.5 field hours x 36 weeks x (1+0.010) = 693 hours
  
-- Total labor hours = 80 + 9.996 +  = 114.996 hours
+- Total labor hours = 1,366.88 hours + 614.75 hours + 693 hours = 2,674.63 hours
 
 ### Stage 1.1 Critique / Feedback Received #2
 - Move the brief to docs/briefs/perfect-competition-brief.md, directly under your repository root. The folders went one level deeper this week — each upload landing inside the folder already open — so move it once from the root, then delete the empty docs/assignments/ folders. Five minutes.
 - Add the critique prompt, word for word, to your Stage 1 entry in prompt-log.md. Two minutes.
 - Redo the labor lines with the right rates, times 36 weeks and (1 + rate)^q, every term in the total. Ten minutes.
 - Put your three numbers in the front-matter hypothesis, add the 70-against-64 line, and submit the link to the brief file in Lamaku. Five minutes.
+
+### Changes Made Based on the Critique
+
+1.Labor lines
+Redid the labor lines with the right rates, times 36 weeks and (1 + rate)^q, with updated bed numbers for each crop bed. 
+
+2. Move brief
+Moved the engagement brief to docs/briefs/perfect-competition-brief.md
+
+3. Critique prompt
+Added the critique prompt, word for word, to your Stage 1 entry in prompt-log.md.
