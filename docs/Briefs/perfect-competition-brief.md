@@ -22,7 +22,7 @@ I am assuming that the prices, labor, fertilizer cost, and diminishing return ra
 
 ## Hypothesis
 
-For my hypothesis, I would say the farm should use all 7 tomato beds, 20 beds of carrots, and 30 beds of mesclun. I would have 7 empty beds left. 
+For my hypothesis, I would say the farm should use 7 tomato beds, 20 beds of carrots, and 30 beds of mesclun. I would have 7 empty beds left. 
 
 ## Reasoning
 
