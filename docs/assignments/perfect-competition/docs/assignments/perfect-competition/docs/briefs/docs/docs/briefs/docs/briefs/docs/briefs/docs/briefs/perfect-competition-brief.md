@@ -22,22 +22,23 @@ I am assuming that the prices, labor, fertilizer cost, and diminishing return ra
 
 ## Hypothesis
 
-For my hypothesis, I would say the farm should use all 20 tomato beds, 12 beds of carrots, and 32 beds of mesclun. I would have 0 empty beds left. 
+For my hypothesis, I would say the farm should use all 20 tomato beds, 12 beds of carrots, and 30 beds of mesclun. I would have 2 empty beds left. 
 
 ## Reasoning
 
-I would use all 20 tomato beds because tomatoes make the most starting revenue at $8,800 per bed. Next, I would use most of the remaining beds for mesclun because it makes $2,700 per bed, compared with $2,094 for carrots. Mesclun also has the lowest diminishing return rate at 1.25%, compared with 2.5% for carrots and 10% for tomatoes. However, labor is also important. Each crop requires labor throughout the 36-week season, so the farm cannot use more labor hours than are available. If tomatoes or mesclun require too much labor, growing more carrots might be a better choice. Finally, the farm must subtract the $20,000 fixed cost from total crop profit to find the actual seasonal profit.
+I would use all 20 tomato beds because tomatoes make the most starting revenue at $8,800 per bed. Next, I would use most of the remaining beds for mesclun because it makes $2,700 per bed, compared with $2,094 for carrots. Mesclun also has the lowest diminishing return rate at 1.25%, compared with 2.5% for carrots and 10% for tomatoes. Labor is also an important constraint. The farm only has 6,480 labor hours available for the 36-week season, including 720 regular labor hours plus four temporary workers at 1,440 hours each. My original prediction of 20 tomato, 12 carrot, and 32 mesclun beds would require about 14,736 labor hours, which is far above the amount available. Therefore, my final mix will need to reduce the number of beds until total labor stays within the 6,480-hour limit. Because of these restrictions, my prediction is that the best solution will use as many high-revenue tomato and mesclun beds as possible without exceeding their bed limits or the labor constraint, with carrots used when they provide a better option under the remaining labor availability. I will use Solver to determine the exact combination.
 
+Finally, I will subtract the $20,000 fixed cost from the total crop profit to determine the farm's actual seasonal profit.
 Labor hours = Number of beds x Labor hours required per bed
 
-- Mesclun: 32 beds x 2.5 labor hours per bed = 80 hours
+- Mesclun: 30 beds x 2.5 labor hours per bed = 75 hours
  
 - Carrots: 12 beds x 0.833 labor hours per bed = 9.996 hours
  
 - Tomatoes: 20 beds x 1.25 labor hours per bed = 25 hours
  
-- Total labor hours = 80 + 9.996 +  = 114.996 hours
+- Total labor hours = 80 + 9.996 +  = 109.996 hours
 
 ## How I Would Know I Was Wrong
 
-I would know my plan was wrong if the optimization model found that a different combination of crops makes more profit. For example, I would be wrong if it is better to use fewer than 20 tomato beds, more than 12 carrot beds, fewer than 32 mesclun beds, or leave some beds empty. The labor limit, $20,000 fixed cost, and diminishing returns could also make another combination more profitable than my proposed 20 tomato, 12 carrot, and 32 mesclun bed plan.
+I would know my plan was wrong if the optimization model found that a different combination of crops makes more profit. For example, I would be wrong if it is better to use fewer than 20 tomato beds, more than 12 carrot beds, fewer than 30 mesclun beds, or leave some beds empty. The labor limit, $20,000 fixed cost, and diminishing returns could also make another combination more profitable than my proposed 20 tomato, 12 carrot, and 30 mesclun bed plan.
