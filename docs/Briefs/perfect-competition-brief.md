@@ -30,7 +30,7 @@ I would use 7 tomato beds because tomatoes make the most starting revenue at $8,
 
 Finally, I will subtract the $20,000 fixed cost from the total crop profit to determine the farm's actual seasonal profit.
 
-Labor cost = rate × 36 × (1 + rate)^q
+Labor hours = Labor(q)=q×hrs/wk/bed×36×(1+dim)
 
 - Mesclun: 30 beds x 2.5 labor hours per bed = 75 hours
  
