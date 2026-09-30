@@ -16,7 +16,7 @@ AI-generated drafts require personal editing to accurately reflect my experience
 ### Stage 1 Prompt
 One page. State the farm's problem in your own words, and end on a hypothesis you can be shown wrong about — written and committed before the workbook exists.
 
-### Critique / Feedback Received
+### Stage 1.1 Critique / Feedback Received
 - The hypothesis needs to include bed counts for mesclun, carrots, and the third crop.
 - The bed counts should total 64 beds, or the hypothesis should state how many beds remain empty.
 - The problem statement needs to include the 36-week growing season.
@@ -56,3 +56,9 @@ Labor hours = Number of beds x Labor hours required per bed
 - Tomatoes: 20 beds x 1.25 labor hours per bed = 25 hours
  
 - Total labor hours = 80 + 9.996 +  = 114.996 hours
+
+### Stage 1.1 Critique / Feedback Received #2
+- Move the brief to docs/briefs/perfect-competition-brief.md, directly under your repository root. The folders went one level deeper this week — each upload landing inside the folder already open — so move it once from the root, then delete the empty docs/assignments/ folders. Five minutes.
+- Add the critique prompt, word for word, to your Stage 1 entry in prompt-log.md. Two minutes.
+- Redo the labor lines with the right rates, times 36 weeks and (1 + rate)^q, every term in the total. Ten minutes.
+- Put your three numbers in the front-matter hypothesis, add the 70-against-64 line, and submit the link to the brief file in Lamaku. Five minutes.
