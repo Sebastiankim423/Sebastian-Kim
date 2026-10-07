@@ -73,3 +73,5 @@ I moved the engagement brief to docs/briefs/perfect-competition-brief.md.
 
 3. Critique prompt:
 I added the critique prompt, word for word, to your Stage 1 entry in prompt-log.md.
+
+### Stage 1.2 Prompt
