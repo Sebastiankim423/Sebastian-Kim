@@ -92,3 +92,14 @@ Standalone P ≈ MC
 - Mesclun ≈ 6
 
 ## Outputs
+- Tomato Beds
+- Carrot Beds
+- Mesclun Beds
+- Total Beds
+- Total Labor Hours
+- Total Revenue
+- Total Fertilizer Cost
+- Total Labor Cost
+- Season Profit
+- Temporary Workers Required
+- Constraint Status
