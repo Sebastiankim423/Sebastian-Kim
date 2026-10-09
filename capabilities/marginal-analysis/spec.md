@@ -92,14 +92,21 @@ Standalone P ≈ MC
 - Mesclun ≈ 6
 
 ## Outputs
-- Tomato Beds
-- Carrot Beds
-- Mesclun Beds
-- Total Beds
-- Total Labor Hours
-- Total Revenue
-- Total Fertilizer Cost
-- Total Labor Cost
-- Season Profit
-- Temporary Workers Required
-- Constraint Status
+- Optimal tomato beds
+- Optimal carrot beds
+- Optimal mesclun beds
+- Total beds planted
+- Total labor hours
+- Permanent labor hours
+- Temporary labor hours
+- Temporary workers required
+- Total labor dollars
+- Blended labor rate
+- Total revenue
+- Total costs
+- Season profit
+- Tomato marginal-cost schedule
+- Carrot marginal-cost schedule
+- Mesclun marginal-cost schedule
+- Constraint status/checks
+- Validation/check results
