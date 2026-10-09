@@ -94,7 +94,7 @@ The required formulas are
 - CARROT_BEDS must be an integer
 - MESCLUN_BEDS must be an integer
 
-  ### Optimization Objective
+ ### Optimization Objective
   - Maximize PROFIT
 
 ### Hand Check
