@@ -56,6 +56,11 @@ against the stated acceptance criteria.
 
 ## Calculation Logic
 
+The required formulas are
+- TOMATO_LABOR_HRS(q) = q × TOMATO_HRS_PER_BED × WEEKS × (1 + TOMATO_DIM_PCT)^q
+- CARROT_LABOR_HRS(q) = q × CARROT_HRS_PER_BED × WEEKS × (1 + CARROT_DIM_PCT)^q
+- MESCLUN_LABOR_HRS(q) = q × MESCLUN_HRS_PER_BED × WEEKS × (1 + MESCLUN_DIM_PCT)^q
+
 ## Validation Rules
 
 ## Outputs
