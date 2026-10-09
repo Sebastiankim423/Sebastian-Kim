@@ -67,4 +67,28 @@ The required formulas are
 
 ## Validation Rules
 
+- No #REF! errors
+- No #DIV/0! errors
+- No #NAME? errors
+- Every calculated cell contains a formula
+- Every input is a named range
+
+### Hand Check
+- Tomato Labor at q = 1
+- 1 × 2.5 × 36 × 1.10 = 99 hours
+
+### Acceptable Criteria 
+Optimal Mix
+- Tomatoes = 10
+- Carrots = 20
+- Mesclun = 30
+Total Beds
+- 60 beds
+Season Profit
+- $42,762
+Standalone P ≈ MC
+- Tomatoes ≈ 10
+- Carrots ≈ 10
+- Mesclun ≈ 6
+
 ## Outputs
