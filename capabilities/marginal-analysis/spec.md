@@ -13,6 +13,12 @@
 - TEMP_WORKER_RATE = $17.36/hr
 - FARMER_RATE = $34.72/hr
 
+### Tomatoes
+
+### Carrots
+
+### Mesclun
+
 ## Structure
 
 ## Calculation Logic
