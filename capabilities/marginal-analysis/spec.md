@@ -21,8 +21,18 @@
 - DIM_PCT = 10%
 
 ### Carrots
+- BED_CAP = 20
+- REVENUE_PER_BED = $2,094
+- HRS_PER_WEEK_PER_BED = 0.833
+- FERTILIZER_PER_BED = $440
+- DIM_PCT = 2.5%
 
 ### Mesclun
+- BED_CAP = 30
+- REVENUE_PER_BED = $2,700
+- HRS_PER_WEEK_PER_BED = 1.25
+- FERTILIZER_PER_BED = $880
+- DIM_PCT = 1.25%
 
 ## Structure
 
