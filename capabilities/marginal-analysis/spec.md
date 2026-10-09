@@ -34,7 +34,25 @@
 - FERTILIZER_PER_BED = $880
 - DIM_PCT = 1.25%
 
-## Structure
+## Model Structure
+
+The workbook will contain an Inputs section identifying all farm-level
+and crop-level assumptions.
+
+The workbook will contain a Cost Structure section calculating total
+labor requirements, permanent labor, temporary labor, total labor cost,
+and the blended labor rate.
+
+The workbook will contain marginal-cost schedules for Tomatoes, Carrots,
+and Mesclun showing production quantity and marginal cost at each
+quantity.
+
+The workbook will contain an Optimization section containing the three
+crop bed decisions, total revenue, total cost, season profit, and all
+model constraints.
+
+The workbook will contain a Checks section that verifies the model
+against the stated acceptance criteria.
 
 ## Calculation Logic
 
