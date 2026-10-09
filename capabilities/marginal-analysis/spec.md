@@ -14,6 +14,11 @@
 - FARMER_RATE = $34.72/hr
 
 ### Tomatoes
+- BED_CAP = 20
+- REVENUE_PER_BED = $8,800
+- HRS_PER_WEEK_PER_BED = 2.5
+- FERTILIZER_PER_BED = $880
+- DIM_PCT = 10%
 
 ### Carrots
 
