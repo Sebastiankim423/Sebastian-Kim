@@ -1,4 +1,4 @@
-### Farm Marginal Analysis Model Specification
+# Farm Marginal Analysis Model Specification
 
 ## Inputs
 
