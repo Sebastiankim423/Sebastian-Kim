@@ -2,6 +2,8 @@
 
 ## Inputs
 
+### Farm Inputs
+
 ## Structure
 
 ## Calculation Logic
