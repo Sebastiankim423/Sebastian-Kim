@@ -181,6 +181,7 @@ Expected:
 - Carrots = 20
 - Mesclun = 30
 - Profit = $42,762
+
 Actual:
 
 - Tomatoes = 10
