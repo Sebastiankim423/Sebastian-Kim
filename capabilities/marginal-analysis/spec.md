@@ -145,6 +145,7 @@ Starting Point:
 - Tomatoes = 7
 - Carrots = 20
 - Mesclun = 30
+
 Result:
 
 Tomatoes = 10
@@ -161,6 +162,7 @@ Starting Point:
 Tomatoes = 20
 Carrots = 0
 Mesclun = 0
+
 Result:
 
 - Tomatoes = 10
@@ -188,7 +190,10 @@ Actual:
 - Carrots = 20
 - Mesclun = 30
 - Profit = $42,775.16
-Result: The model matched the published optimal crop mix and produced a profit within $13.16 of the published answer.
+
+Result: 
+
+The model matched the published optimal crop mix and produced a profit within $13.16 of the published answer.
 
 ## Spreadsheet Errors
 No #REF!, #DIV/0!, or #NAME? errors were found.
