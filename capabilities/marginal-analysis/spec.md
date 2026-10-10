@@ -150,6 +150,7 @@ Result:
 Tomatoes = 10
 Carrots = 20
 Mesclun = 30
+
 Season Profit:
 
 - $42,775.16
@@ -165,6 +166,7 @@ Result:
 - Tomatoes = 10
 - Carrots = 20
 - Mesclun = 30
+
 Season Profit:
 
 - $42,775.16
