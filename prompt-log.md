@@ -74,4 +74,9 @@ I moved the engagement brief to docs/briefs/perfect-competition-brief.md.
 3. Critique prompt:
 I added the critique prompt, word for word, to your Stage 1 entry in prompt-log.md.
 
-### Stage 1.2 Prompt
+### Stage 2 Prompt
+Prompt: Help build and audit the farm optimization Excel model.
+
+Result: Created an Excel model, implemented Solver constraints, and verified the optimal crop mix.
+
+Lesson: Running Solver from multiple starting points showed that the model consistently found the same optimal solution of 10 tomato beds, 20 carrot beds, and 30 mesclun beds.
