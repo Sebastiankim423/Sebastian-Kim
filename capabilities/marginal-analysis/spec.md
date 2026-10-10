@@ -137,3 +137,55 @@ Temporary Workers
 - Mesclun marginal-cost schedule
 - Constraint status/checks
 - Validation/check results
+
+## Audit Findings 
+Solver Run 1
+Starting Point:
+
+- Tomatoes = 7
+- Carrots = 20
+- Mesclun = 30
+Result:
+
+Tomatoes = 10
+Carrots = 20
+Mesclun = 30
+Season Profit:
+
+- $42,775.16
+
+Solver Run 2
+Starting Point:
+
+Tomatoes = 20
+Carrots = 0
+Mesclun = 0
+Result:
+
+- Tomatoes = 10
+- Carrots = 20
+- Mesclun = 30
+Season Profit:
+
+- $42,775.16
+
+## Finding
+Both Solver runs produced the same optimal solution.
+
+## Acceptance Criteria Check
+Expected:
+
+- Tomatoes = 10
+- Carrots = 20
+- Mesclun = 30
+- Profit = $42,762
+Actual:
+
+- Tomatoes = 10
+- Carrots = 20
+- Mesclun = 30
+- Profit = $42,775.16
+Result: The model matched the published optimal crop mix and produced a profit within $13.16 of the published answer.
+
+## Spreadsheet Errors
+No #REF!, #DIV/0!, or #NAME? errors were found.
