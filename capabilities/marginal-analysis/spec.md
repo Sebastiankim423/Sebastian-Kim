@@ -8,7 +8,7 @@
 - - Source: Case Scenario
 - FIXED COST = $20,000
 - - Unit: Dollars
-  - - Source: Case Scenario
+- - Source: Case Scenario
 - TOTAL_BEDS = 64
 - - Source: Case Scenario
 - FARMER_HOURS = 720
