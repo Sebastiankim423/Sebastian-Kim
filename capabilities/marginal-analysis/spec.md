@@ -6,7 +6,7 @@
 
 - WEEKS = 36
 - - Source: Case Scenario
-- FIXED COST = $20,000
+- FIXED_COST = $20,000
 - - Unit: Dollars
 - - Source: Case Scenario
 - TOTAL_BEDS = 64
