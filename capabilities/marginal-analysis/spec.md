@@ -5,7 +5,7 @@
 ### Farm Inputs
 
 - WEEKS = 36
-- - Source: Case Scenario
+-- Source: Case Scenario
 - FIXED COST = $20,000
 - TOTAL_BEDS = 64
 - FARMER_HOURS = 720
