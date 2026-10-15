@@ -7,12 +7,20 @@
 - WEEKS = 36
 - - Source: Case Scenario
 - FIXED COST = $20,000
+- - Unit: Dollars
+  - - Source: Case Scenario
 - TOTAL_BEDS = 64
+- - Source: Case Scenario
 - FARMER_HOURS = 720
+- - Source: Case Scenario
 - TEMP_WORKERS_MAX = 4
+- - Source: Case Scenario
 - TEMP_WORKER_HOURS = 1440
+- - Case Scenario
 - TEMP_WORKER_RATE = $17.36/hr
+- - Source: Case Scenario
 - FARMER_RATE = $34.72/hr
+- - Source: Case Scenario
 
 ### Tomatoes
 - BED_CAP = 20
