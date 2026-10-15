@@ -84,6 +84,9 @@ The required formulas are
 16. TEMPORARY_LABOR_HOURS = MAX(0, TOTAL_LABOR_HOURS - FARMER_HOURS)
 17. TEMP_WORKERS_REQUIRED = TEMPORARY_LABOR_HOURS / TEMP_WORKER_HOURS
 18. TOTAL_LABOR_COST = (PERMANENT_LABOR_HOURS × FARMER_RATE) + (TEMPORARY_LABOR_HOURS × TEMP_WORKER_RATE)
+19. BLENDED_LABOR_RATE = TOTAL_LABOR_COST / TOTAL_LABOR_HOURS
+20. CROP_LABOR_COST = CROP_LABOR_HOURS × BLENDED_LABOR_RATE
+21. MARGINAL_COST(q) = TOTAL_COST(q) − TOTAL_COST(q−1)
 
 ## Validation Rules
 
@@ -92,6 +95,11 @@ The required formulas are
 - No #NAME? errors
 - Every calculated cell contains a formula
 - Every input is a named range
+- Solver must be run from 0/0/0
+- Solver must be run from 20/0/0
+- Results from both runs must be compared
+- One intermediate value must be cross-checked against the Farm Profit Lab
+- Published profit must be within +/- $20 of the expected value
 
 ### Solver Constraints 
 - TOMATO_BEDS <= 20
