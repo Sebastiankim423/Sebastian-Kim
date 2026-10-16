@@ -157,29 +157,12 @@ Temporary Workers
 - Validation/check results
 
 ## Audit Findings 
-Solver Run 1
+# Solver Run Starting from Hypothesis
 Starting Point:
 
 - Tomatoes = 7
 - Carrots = 20
 - Mesclun = 30
-
-Result:
-
-Tomatoes = 10
-Carrots = 20
-Mesclun = 30
-
-Season Profit:
-
-- $42,775.16
-
-Solver Run 2
-Starting Point:
-
-Tomatoes = 20
-Carrots = 0
-Mesclun = 0
 
 Result:
 
@@ -191,8 +174,65 @@ Season Profit:
 
 - $42,775.16
 
+# Solver Run Starting at 20/0/0
+Starting Point:
+
+- Tomatoes = 20
+- Carrots = 0
+- Mesclun = 0
+
+Result:
+
+- Tomatoes = 10
+- Carrots = 20
+- Mesclun = 30
+
+Season Profit:
+
+- $42,775.16
+
+# Solver Run Starting at 0/0/0
+
+The Solver run that started at 0/0/0 remained at 0/0/0 and produced a season profit of -$20,000.
+
+This check would have caught Solver becoming stuck at a non-optimal solution.
+
 ## Finding
 Both Solver runs produced the same optimal solution.
+
+# q = 1 Hand Check
+Tomato labor at q = 1:
+
+1 × 2.5 × 36 × 1.10
+
+= 99 hours
+
+Result: Passed.
+
+This check would have caught an incorrect labor formula or missing diminishing-returns exponent.
+
+# Profit Difference
+The workbook returned a season profit of $42,775.16 while the published answer is $42,762.
+
+The difference of $13.16 is likely caused by rounding of values such as 0.833 labor hours, $34.72 per hour, and $17.36 per hour.
+
+This check would have caught a larger formula error if the difference had been significantly larger.
+
+# Farm Profit Lab Cross-Check
+An intermediate labor calculation was compared against the Farm Profit Lab.
+
+The values matched within rounding error.
+
+This check would have caught an incorrect labor formula, missing diminishing-returns exponent, or incorrect crop input.
+
+# Overall Findings
+The Solver runs beginning at 7/20/30 and 20/0/0 both converged to the same optimal solution:
+
+Tomatoes = 10
+Carrots = 20
+Mesclun = 30
+
+This suggests the model is stable when started from a feasible production plan.
 
 ## Acceptance Criteria Check
 Expected:
