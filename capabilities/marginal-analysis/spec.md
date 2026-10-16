@@ -127,8 +127,10 @@ Optimal Mix
 Total Beds
 
 - 60 beds
+
 Season Profit
 - $42,762
+
 Standalone P ≈ MC
 - Tomatoes ≈ 10
 - Carrots ≈ 10
