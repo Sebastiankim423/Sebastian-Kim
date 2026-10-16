@@ -125,6 +125,7 @@ Optimal Mix
 - Carrots = 20
 - Mesclun = 30
 Total Beds
+
 - 60 beds
 Season Profit
 - $42,762
