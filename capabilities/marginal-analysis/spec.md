@@ -115,7 +115,7 @@ The required formulas are
   - Maximize PROFIT
 
 ### q=1 Hand Check
--1 × 2.5 × 36 × 1.10 = 99 hours
+- 1 × 2.5 × 36 × 1.10 = 99 hours
 - Result: Passed
 - This check would have caught an incorrect labor formula or missing exponent.
 
