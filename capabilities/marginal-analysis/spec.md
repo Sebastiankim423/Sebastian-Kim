@@ -160,7 +160,7 @@ Temporary Workers
 - Validation/check results
 
 ## Audit Findings 
-# Solver Run Starting from Hypothesis
+### Solver Run Starting from Hypothesis
 Starting Point:
 
 - Tomatoes = 7
