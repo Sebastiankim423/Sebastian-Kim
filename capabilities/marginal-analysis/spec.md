@@ -177,7 +177,7 @@ Season Profit:
 
 - $42,775.16
 
-# Solver Run Starting at 20/0/0
+### Solver Run Starting at 20/0/0
 Starting Point:
 
 - Tomatoes = 20
@@ -194,13 +194,13 @@ Season Profit:
 
 - $42,775.16
 
-# Solver Run Starting at 0/0/0
+### Solver Run Starting at 0/0/0
 
 The Solver run that started at 0/0/0 remained at 0/0/0 and produced a season profit of -$20,000.
 
 This check would have caught Solver becoming stuck at a non-optimal solution.
 
-## Finding
+### Finding
 Both Solver runs produced the same optimal solution.
 
 # q = 1 Hand Check
