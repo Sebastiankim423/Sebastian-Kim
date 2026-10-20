@@ -203,6 +203,8 @@ Season Profit:
 
 The Solver run that started at 0/0/0 remained at 0/0/0 and produced a season profit of -$20,000.
 
+This suggests that GRG Nonlinear can be sensitive to starting points and may fail to move when started too far from a feasible solution.
+
 This check would have caught Solver becoming stuck at a non-optimal solution.
 
 ### Finding
