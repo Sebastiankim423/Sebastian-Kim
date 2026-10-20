@@ -229,9 +229,13 @@ This check would have caught a larger formula error if the difference had been s
 # Farm Profit Lab Cross-Check
 An intermediate labor calculation was compared against the Farm Profit Lab.
 
-The values matched within rounding error.
+Workbook tomato labor at q = 1 = 99 hours.
 
-This check would have caught an incorrect labor formula, missing diminishing-returns exponent, or incorrect crop input.
+Farm Profit Lab tomato labor at q = 1 = 99 hours.
+
+Difference = 0 hours.
+
+This check would have caught an incorrect labor formula or missing diminishing-returns exponent.
 
 # Overall Findings
 The Solver runs beginning at 7/20/30 and 20/0/0 both converged to the same optimal solution:
