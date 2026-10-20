@@ -101,6 +101,11 @@ The required formulas are
 - One intermediate value must be cross-checked against the Farm Profit Lab
 - Published profit must be within +/- $20 of the expected value
 
+### Marginal Cost Validation 
+- Tomatoes should reach standalone P ≈ MC near 10 beds
+- Carrots should reach standalone P ≈ MC near 10 beds
+- Mesclun should reach standalone P ≈ MC near 6 beds
+
 ### Solver Constraints 
 - TOMATO_BEDS <= 20
 - CARROT_BEDS <= 20
