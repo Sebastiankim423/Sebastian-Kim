@@ -208,7 +208,7 @@ This suggests that GRG Nonlinear can be sensitive to starting points and may fai
 This check would have caught Solver becoming stuck at a non-optimal solution.
 
 ### Finding
-Both Solver runs produced the same optimal solution.
+The Solver runs starting at 7/20/30 and 20/0/0 both converged to the same solution.
 
 # q = 1 Hand Check
 Tomato labor at q = 1:
