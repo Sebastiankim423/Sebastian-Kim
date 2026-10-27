@@ -229,6 +229,19 @@ This suggests that GRG Nonlinear can be sensitive to starting points and may fai
 
 This check would have caught Solver becoming stuck at a non-optimal solution.
 
+### What the 0/0/0 Run Shows
+
+- The Solver run starting at 0/0/0 remained at 0/0/0 and produced a season profit of -$20,000.
+- This shows that GRG Nonlinear can be sensitive to its starting point. When Solver began at 0/0/0, it did not move toward the optimal solution and terminated without performing any iterations.
+- As a result, the 0/0/0 run was treated as a finding rather than a successful optimization run.
+- The Solver runs starting at 7/20/30 and 20/0/0 both converged to the same optimal solution:
+- Tomatoes = 10
+- Carrots = 20
+- Mesclun = 30
+- with a season profit of $42,775.16.
+- This suggests that the optimal solution is stable when Solver starts from a feasible production plan.
+- This check would have caught Solver becoming stuck at a non-optimal solution.
+
 ### Finding
 The Solver runs starting at 7/20/30 and 20/0/0 both converged to the same solution.
 
