@@ -24,24 +24,39 @@
 
 ### Tomatoes
 - TOMATO_BED_CAP = 20 beds
+- - Source: Case Scenario
 - TOMATO_REVENUE_PER_BED = $8,800
+- - Source: Case Scenario
 - TOMATO_HRS_PER_BED = 2.5 hours/week/bed
+- - Source: Case Scenario
 - TOMATO_FERTILIZER_PER_BED = $880
+- - Source: Case Scenario
 - TOMATO_DIM_PCT = 10%
+- - Source: Case Scenario
 
 ### Carrots
 - CARROT_BED_CAP = 20
+- - Source: Case Scenario
 - CARROT_REVENUE_PER_BED = $2,094
+- - Source: Case Scenario
 - CARROT_HRS_PER_BED = 0.833 hours/week/bed
+- - Source: Case Scenario
 - CARROT_ FERTILIZER_PER_BED = $440
+- - Source: Case Scenario
 - CARROT_DIM_PCT = 2.5%
+- - Source: Case Scenario
 
 ### Mesclun
 - MESCLUN_BED_CAP = 30
+- - Source: Case Scenario
 - MESCLUN_REVENUE_PER_BED = $2,700
+- - Source: Case Scenario
 - MESCLUN_HRS_PER_BED = 1.25 hours/week/bed
+- - Source: Case Scenario
 - MESCLUN_FERTILIZER_PER_BED = $880
+- - Source: Case Scenario
 - MESCLUN_DIM_PCT = 1.25%
+- - Source: Case Scenario
 
 ## Model Structure
 
@@ -86,7 +101,13 @@ The required formulas are
 18. TOTAL_LABOR_COST = (PERMANENT_LABOR_HOURS × FARMER_RATE) + (TEMPORARY_LABOR_HOURS × TEMP_WORKER_RATE)
 19. BLENDED_LABOR_RATE = TOTAL_LABOR_COST / TOTAL_LABOR_HOURS
 20. CROP_LABOR_COST = CROP_LABOR_HOURS × BLENDED_LABOR_RATE
-21. MARGINAL_COST(q) = TOTAL_COST(q) − TOTAL_COST(q−1)
+21. TOMATO_TOTAL_COST(q) = TOMATO_LABOR_COST(q) + TOMATO_FERTILIZER_COST(q)
+22. CARROT_TOTAL_COST(q) = CARROT_LABOR_COST(q) + CARROT_FERTILIZER_COST(q)
+23. MESCLUN_TOTAL_COST(q) = MESCLUN_LABOR_COST(q) + MESCLUN_FERTILIZER_COST(q)
+24. MARGINAL_COST(q) = TOTAL_COST(q) − TOTAL_COST(q−1)
+25. Marginal-cost schedules use the same labor-pricing rule as the workbook.
+    - The first 720 labor hours are priced at FARMER_RATE.
+    - Any labor hours beyond 720 are priced at TEMP_WORKER_RATE.
 
 ## Validation Rules
 
