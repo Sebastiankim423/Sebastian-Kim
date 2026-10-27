@@ -117,6 +117,7 @@ The required formulas are
 - Every calculated cell contains a formula
 - Every input is a named range
 - Solver must be run from 0/0/0
+- If Solver does not move from 0/0/0, the result is recorded as a finding and compared with other Solver starting points.
 - Solver must be run from 20/0/0
 - Results from both runs must be compared
 - One intermediate value must be cross-checked against the Farm Profit Lab
