@@ -41,7 +41,7 @@
 - - Source: Case Scenario
 - CARROT_HRS_PER_BED = 0.833 hours/week/bed
 - - Source: Case Scenario
-- CARROT_ FERTILIZER_PER_BED = $440
+- CARROT_FERTILIZER_PER_BED = $440
 - - Source: Case Scenario
 - CARROT_DIM_PCT = 2.5%
 - - Source: Case Scenario
@@ -123,9 +123,9 @@ The required formulas are
 - Published profit must be within +/- $20 of the expected value
 
 ### Marginal Cost Validation 
-- Tomatoes should reach standalone P ≈ MC near 10 beds
-- Carrots should reach standalone P ≈ MC near 10 beds
-- Mesclun should reach standalone P ≈ MC near 6 beds
+- Tomatoes should reach P ≈ MC near 10 beds ±1 bed
+- Carrots should reach P ≈ MC near 10 beds ±1 bed
+- Mesclun should reach P ≈ MC near 6 beds ±1 bed
 
 ### Solver Constraints 
 - TOMATO_BEDS <= 20
