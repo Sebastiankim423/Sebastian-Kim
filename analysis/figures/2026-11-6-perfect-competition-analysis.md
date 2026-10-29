@@ -1,7 +1,8 @@
 # Perfect Competition Analysis
 
 ## Tomato Marginal Cost Curve
-tomato-mc.png
+
+Tomato Marginal Cost Curve
 
 The tomato marginal cost curve crosses the tomato price line near 6 beds.
 
