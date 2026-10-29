@@ -2,6 +2,7 @@
 
 ## Tomato Marginal Cost Curve
 tomato-mc.png
+
 The tomato marginal cost curve crosses the tomato price line near 6 beds.
 
 
