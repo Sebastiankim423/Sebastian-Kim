@@ -1,1 +1,0 @@
-figures/tomato-mc.png
