@@ -2,7 +2,7 @@
 
 ## Tomato Marginal Cost Curve
 
-https://github.com/Sebastiankim423/Sebastian-Kim/blob/main/analysis/figures/tomato-mc.png?raw=true
+<img width="1653" height="993" alt="image" src="https://github.com/user-attachments/assets/ec3a0fd5-cd8a-4d30-b406-36aff4048d2d" />
 
 The tomato marginal cost curve crosses the tomato price line near 6 beds.
 
