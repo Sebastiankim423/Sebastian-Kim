@@ -1,1 +1,1 @@
-
+Perfect Competition Analysis
