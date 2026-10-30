@@ -26,3 +26,18 @@ The Solver model found:
 - Mesclun = 30
 
 My hypothesis underestimated the number of tomato beds. The optimization model showed that the farm could profitably grow more tomatoes while staying within the labor and bed constraints.
+
+## Binding Constraints 
+The model was constrained by crop bed caps and available resources.
+
+Tomatoes reached their optimal level of 10 beds.
+
+Carrots reached the maximum bed cap of 20 beds.
+
+Mesclun reached the maximum bed cap of 30 beds.
+
+The farm used 60 of the available 64 beds, leaving 4 beds unused.
+
+The labor constraint was not fully used because total labor remained below the 6,480-hour limit.
+
+## Marginal Cost Analysis
