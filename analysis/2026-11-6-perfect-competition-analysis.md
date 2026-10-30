@@ -41,3 +41,10 @@ The farm used 60 of the available 64 beds, leaving 4 beds unused.
 The labor constraint was not fully used because total labor remained below the 6,480-hour limit.
 
 ## Marginal Cost Analysis
+The Tomato Marginal Cost curve crossed the tomato price line near 6 beds.
+
+The Carrot Marginal Cost curve crossed the carrot price line near 10 beds.
+
+These crossing points support the principle that production should continue until price is approximately equal to marginal cost (P ≈ MC).
+
+As production increases, diminishing returns cause marginal cost to rise.
