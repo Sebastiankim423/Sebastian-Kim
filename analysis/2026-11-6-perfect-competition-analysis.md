@@ -48,3 +48,14 @@ The Carrot Marginal Cost curve crossed the carrot price line near 10 beds.
 These crossing points support the principle that production should continue until price is approximately equal to marginal cost (P ≈ MC).
 
 As production increases, diminishing returns cause marginal cost to rise.
+
+## Recommendation 
+The recommended planting strategy is:
+
+- 10 Tomato Beds
+- 20 Carrot Beds
+- 30 Mesclun Beds
+
+This combination produces the highest profit while satisfying labor, bed, and crop-cap constraints.
+
+The model produced a season profit of approximately $42,775.
