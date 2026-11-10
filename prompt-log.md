@@ -94,6 +94,8 @@ What I Did: I compared the results against my original hypothesis and used the w
 
 Lesson: Building a correct model is only part of the process. The analysis and recommendation explain why the optimal solution makes sense and how constraints influence decisions.
 
+## November 2026
+
 ### Reflection
 AI helped organize the analysis and identify areas that needed verification. I did not rely on AI to determine the final answers. Instead, I verified the labor formulas by performing the q = 1 hand check and confirmed the optimization results by running Solver from multiple starting points. I also compared workbook calculations against the Farm Profit Lab and confirmed that key results matched within rounding error. These checks helped verify that the model was working correctly before using the results in the final analysis and recommendation.
 
