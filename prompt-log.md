@@ -96,3 +96,13 @@ Lesson: Building a correct model is only part of the process. The analysis and r
 
 ### Reflection
 AI helped organize the analysis and identify areas that needed verification. I did not rely on AI to determine the final answers. Instead, I verified the labor formulas by performing the q = 1 hand check and confirmed the optimization results by running Solver from multiple starting points. I also compared workbook calculations against the Farm Profit Lab and confirmed that key results matched within rounding error. These checks helped verify that the model was working correctly before using the results in the final analysis and recommendation.
+
+### 2026-11-09 Research Paper
+
+Tool: Microsoft Copilot
+
+Prompt: Help organize the research paper repository structure and supporting documentation.
+
+Result: Created the brief, specification, draft structure, and repository organization for the research paper.
+
+What I Did: I reviewed the structure and connected repository artifacts to the completed research paper.
