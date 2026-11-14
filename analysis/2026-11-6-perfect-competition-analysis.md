@@ -32,7 +32,7 @@ The Solver model found:
 - Carrots = 20
 - Mesclun = 30
 
-My hypothesis underestimated the number of tomato beds. The model showed that additional tomato production could be profitable while remaining within the farm's constraints. The optimization process improved on my original estimate.
+My hypothesis underestimated the number of tomato beds. My original hypothesis predicted 7 tomato beds, while Solver selected 10 tomato beds. The marginal-cost schedule currently suggests tomato production becomes uneconomic between beds 5 and 6, which does not fully agree with the Solver solution. This indicates that additional investigation is needed to reconcile the marginal-cost schedule with the optimization results. The optimization process improved on my original estimate.
 
 ## Which Constraints Bind?
 The tomato bed cap was not binding because the model selected 10 of the 20 available tomato beds.
