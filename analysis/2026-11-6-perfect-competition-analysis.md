@@ -45,7 +45,12 @@ The labor constraint was not fully used because total labor remained below the 6
 
 The carrot and mesclun bed caps appear to be binding because Solver selects the maximum number of beds allowed for both crops.
 
-To test the value of relaxing the constraints, I increased the mesclun bed cap from 30 to 31 and ran Solver again. Solver continued to select 30 mesclun beds, and the optimal solution did not change.
+To evaluate the value of relaxing constraints, I increased the carrot bed cap from 20 to 21 and ran Solver again. The optimal solution did not change and Solver continued to select 20 carrot beds.
+
+I then increased the mesclun bed cap from 30 to 31 and ran Solver again. The optimal solution again remained unchanged and Solver continued to select 30 mesclun beds.
+
+Because neither change increased profit, both additional beds had a shadow price of approximately $0. This suggests that relaxing either cap would not increase profit under the current conditions.
+
 
 This suggests that an additional mesclun bed has a shadow price of approximately $0 and does not increase profit. Relaxing the mesclun cap would therefore provide little or no economic benefit.
 
