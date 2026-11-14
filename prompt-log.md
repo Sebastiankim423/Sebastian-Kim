@@ -94,6 +94,14 @@ What I Did: I compared the results against my original hypothesis and used the w
 
 Lesson: Building a correct model is only part of the process. The analysis and recommendation explain why the optimal solution makes sense and how constraints influence decisions.
 
+AI Error Identified
+
+The assistant initially assumed that the tomato marginal-cost schedule and Solver solution were consistent. By comparing the marginal-cost schedule with the Solver results, I found that marginal cost exceeded price near bed 6 while Solver selected 10 tomato beds. I identified the inconsistency by reviewing the workbook calculations and marginal-cost schedule.
+
+What I Kept: The overall structure of the analysis.
+
+What I Changed: I revised the discussion of tomato marginal cost after comparing the workbook's schedule with the Solver results.
+
 ## November 2026
 
 ### Reflection
