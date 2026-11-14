@@ -1,5 +1,10 @@
 # Perfect Competition Recommendation Memo
 
+## Judgement Call
+Testing the mesclun bed cap by increasing it from 30 to 31 did not change the optimal solution or increase profit. This suggests that relaxing the mesclun cap would provide little economic benefit.
+
+The next constraint worth evaluating is the carrot bed cap, because the additional mesclun capacity was not used by the optimizer.
+
 ## Recommendation
 
 Plant: 
