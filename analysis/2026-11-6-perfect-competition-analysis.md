@@ -1,13 +1,11 @@
 # Perfect Competition Analysis
 
 ## Where Does the Money Crop Stop, and Why?
-Tomatoes generate the highest revenue per bed at $8,800. The model's marginal cost schedule shows that marginal cost rises as additional tomato beds are planted. The marginal cost curve crosses the tomato price line near 6 beds, showing where additional tomato production becomes less attractive.
+Tomatoes generate the highest revenue per bed at $8,800. The current marginal cost schedule shows marginal cost rising from approximately $8,623 at bed 5 to approximately $9,812 at bed 6. This suggests that tomato production reaches the point where price is approximately equal to marginal cost between beds 5 and 6.
 
-The Tomato Marginal Cost schedule currently shows marginal cost crossing the tomato price of $8,800 between beds 5 and 6. Specifically, marginal cost at bed 5 is approximately $8,623, while marginal cost at bed 6 is approximately $9,812.
+However, Solver selected 10 tomato beds as part of the optimal solution. Because a price-taking producer should continue production until price is approximately equal to marginal cost, this difference suggests that the marginal-cost schedule and optimization results should be examined further.
 
-However, Solver selected 10 tomato beds in the optimal solution. Because a price-taking producer should continue production until price is approximately equal to marginal cost, this inconsistency suggests that either the marginal-cost schedule or the optimization model requires further review.
-
-The workbook's Solver solution remains 10 tomato beds, but the marginal-cost schedule currently indicates that tomato production becomes uneconomic after approximately 5-6 beds.
+The optimization model selected 10 tomato beds, while the marginal-cost schedule suggests production becomes uneconomic after approximately 5-6 beds.
 ## Tomato Marginal Cost Curve
 
 <img width="1653" height="993" alt="image" src="https://github.com/user-attachments/assets/ec3a0fd5-cd8a-4d30-b406-36aff4048d2d" />
@@ -32,7 +30,7 @@ The Solver model found:
 - Carrots = 20
 - Mesclun = 30
 
-My hypothesis underestimated the number of tomato beds. My original hypothesis predicted 7 tomato beds, while Solver selected 10 tomato beds. The marginal-cost schedule currently suggests tomato production becomes uneconomic between beds 5 and 6, which does not fully agree with the Solver solution. This indicates that additional investigation is needed to reconcile the marginal-cost schedule with the optimization results. The optimization process improved on my original estimate.
+My hypothesis underestimated tomato production. However, the marginal-cost schedule currently indicates that tomato marginal cost exceeds price between beds 5 and 6, while the Solver solution includes 10 tomato beds. This inconsistency suggests that additional investigation of the marginal-cost schedule is needed.
 
 ## Which Constraints Bind?
 The tomato bed cap was not binding because the model selected 10 of the 20 available tomato beds.
