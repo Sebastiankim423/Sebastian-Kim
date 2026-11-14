@@ -46,17 +46,13 @@ The total bed constraint was not binding because the model used 60 of the 64 ava
 The labor constraint was not fully used because total labor remained below the 6,480-hour limit.
 
 ## Does Any Marginal Cost Curve Fall? 
-The Tomato Marginal Cost curve crossed the tomato price line near 6 beds.
+The tomato marginal cost curve does not fall between beds 5 and 6. Marginal cost increases from approximately $8,623 at bed 5 to approximately $9,812 at bed 6.
 
-The Carrot Marginal Cost curve crossed the carrot price line near 10 beds.
+The increase occurs because the labor requirement increases under the diminishing-returns labor function. As more tomato beds are planted, each additional bed requires more labor hours, causing marginal cost to rise.
 
-These crossing points support the principle that production should continue until price is approximately equal to marginal cost (P ≈ MC).
+The carrot marginal cost curve crosses the carrot price line near 10 beds. This supports the validation rule that carrots should reach P ≈ MC near 10 beds.
 
-As production increases, diminishing returns cause marginal cost to rise.
-
-The marginal cost schedules show changes in cost as production increases. The shape of the curves is caused by the labor equation and diminishing returns. As more beds are planted, labor requirements grow and marginal costs increase.
-
-Marginal cost does not change because the crops become physically different. Instead, the cost changes because additional production requires more labor and resources.
+The marginal cost schedules show how costs change as production expands. Marginal cost increases because additional production requires more labor and resources, not because the crops themselves change physically. The behavior of the curves reflects the increasing labor required by the production process.
 
 ## Would Each Crop Make Money on Its Own? 
 If the full fixed cost were assigned to a single crop, that crop might not make a profit on its own. However, the planting decision is based on marginal cost rather than fixed cost.
