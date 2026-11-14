@@ -43,6 +43,12 @@ The total bed constraint was not binding because the model used 60 of the 64 ava
 
 The labor constraint was not fully used because total labor remained below the 6,480-hour limit.
 
+The carrot and mesclun bed caps appear to be binding because Solver selects the maximum number of beds allowed for both crops.
+
+To test the value of relaxing the constraints, I increased the mesclun bed cap from 30 to 31 and ran Solver again. Solver continued to select 30 mesclun beds, and the optimal solution did not change.
+
+This suggests that an additional mesclun bed has a shadow price of approximately $0 and does not increase profit. Relaxing the mesclun cap would therefore provide little or no economic benefit.
+
 ## Does Any Marginal Cost Curve Fall? 
 The tomato marginal cost curve does not fall between beds 5 and 6. Marginal cost increases from approximately $8,623 at bed 5 to approximately $9,812 at bed 6.
 
