@@ -1,9 +1,11 @@
 # Perfect Competition Recommendation Memo
 
 ## Judgement Call
-Testing the mesclun bed cap by increasing it from 30 to 31 did not change the optimal solution or increase profit. This suggests that relaxing the mesclun cap would provide little economic benefit.
+Increasing the carrot bed cap from 20 to 21 did not increase profit.
 
-The next constraint worth evaluating is the carrot bed cap, because the additional mesclun capacity was not used by the optimizer.
+Increasing the mesclun bed cap from 30 to 31 also did not increase profit.
+
+Because neither additional bed increased profit, neither cap should be prioritized for expansion at this time. The farm would benefit more from evaluating other constraints or changes in crop economics before investing in additional capacity.
 
 ## Recommendation
 
@@ -19,4 +21,4 @@ This crop mix produced the highest season profit while meeting all labor and bed
 The most important constraints were the crop bed caps, especially for carrots and mesclun.
 
 ## What Would Change my Recommendation 
-A major change in crop prices, labor costs, available labor hours, or available land could change the optimal planting plan.
+A significant change in crop prices, labor costs, fertilizer costs, or the tomato marginal-cost schedule would change the recommended planting mix.
