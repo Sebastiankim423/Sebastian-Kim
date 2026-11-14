@@ -1,11 +1,11 @@
 # Perfect Competition Analysis
 
 ## Where Does the Money Crop Stop, and Why?
-Tomatoes generate the highest revenue per bed at $8,800. The current marginal cost schedule shows marginal cost rising from approximately $8,623 at bed 5 to approximately $9,812 at bed 6. This suggests that tomato production reaches the point where price is approximately equal to marginal cost between beds 5 and 6.
+Tomatoes generate the highest revenue per bed at $8,800. The Tomato Marginal Cost schedule shows marginal cost is approximately $8,248 at bed 10 and approximately $9,390 at bed 11.
 
-However, Solver selected 10 tomato beds as part of the optimal solution. Because a price-taking producer should continue production until price is approximately equal to marginal cost, this difference suggests that the marginal-cost schedule and optimization results should be examined further.
+Because the tomato price is $8,800, price is greater than marginal cost at bed 10 but lower than marginal cost at bed 11. This indicates that the profit-maximizing production level is approximately 10 tomato beds, where P ≈ MC.
 
-The optimization model selected 10 tomato beds, while the marginal-cost schedule suggests production becomes uneconomic after approximately 5-6 beds.
+This result is consistent with the Solver solution, which also selected 10 tomato beds.
 ## Tomato Marginal Cost Curve
 
 <img width="1653" height="993" alt="image" src="https://github.com/user-attachments/assets/ec3a0fd5-cd8a-4d30-b406-36aff4048d2d" />
@@ -30,7 +30,7 @@ The Solver model found:
 - Carrots = 20
 - Mesclun = 30
 
-My hypothesis underestimated tomato production. However, the marginal-cost schedule currently indicates that tomato marginal cost exceeds price between beds 5 and 6, while the Solver solution includes 10 tomato beds. This inconsistency suggests that additional investigation of the marginal-cost schedule is needed.
+My original hypothesis predicted 7 tomato beds, 20 carrot beds, and 30 mesclun beds. The optimization model found 10 tomato beds, 20 carrot beds, and 30 mesclun beds.My hypothesis underestimated tomato production. The corrected Tomato Marginal Cost schedule shows that marginal cost remains below the tomato price at bed 10 and exceeds the tomato price at bed 11. This explains why the optimal solution includes 10 tomato beds.
 
 ## Which Constraints Bind?
 The tomato bed cap was not binding because the model selected 10 of the 20 available tomato beds.
@@ -55,13 +55,11 @@ Because neither change increased profit, both additional beds had a shadow price
 This suggests that an additional mesclun bed has a shadow price of approximately $0 and does not increase profit. Relaxing the mesclun cap would therefore provide little or no economic benefit.
 
 ## Does Any Marginal Cost Curve Fall? 
-The tomato marginal cost curve does not fall between beds 5 and 6. Marginal cost increases from approximately $8,623 at bed 5 to approximately $9,812 at bed 6.
+The tomato marginal cost curve briefly falls between beds 5 and 6 before rising again.
 
-The increase occurs because the labor requirement increases under the diminishing-returns labor function. As more tomato beds are planted, each additional bed requires more labor hours, causing marginal cost to rise.
+Marginal cost decreases from approximately $7,660 at bed 5 to approximately $4,906 at bed 6. This change is not caused by tomatoes becoming physically easier to produce. Instead, it reflects a change in how labor costs are priced under the model's labor-cost assumptions.
 
-The carrot marginal cost curve crosses the carrot price line near 10 beds. This supports the validation rule that carrots should reach P ≈ MC near 10 beds.
-
-The marginal cost schedules show how costs change as production expands. Marginal cost increases because additional production requires more labor and resources, not because the crops themselves change physically. The behavior of the curves reflects the increasing labor required by the production process.
+This demonstrates that a marginal cost curve can be influenced by changes in both production requirements and input costs. After bed 6, marginal cost begins increasing again as diminishing returns continue to raise labor requirements.
 
 ## Would Each Crop Make Money on Its Own? 
 If the full fixed cost were assigned to a single crop, that crop might not make a profit on its own. However, the planting decision is based on marginal cost rather than fixed cost.
