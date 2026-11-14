@@ -3,8 +3,11 @@
 ## Where Does the Money Crop Stop, and Why?
 Tomatoes generate the highest revenue per bed at $8,800. The model's marginal cost schedule shows that marginal cost rises as additional tomato beds are planted. The marginal cost curve crosses the tomato price line near 6 beds, showing where additional tomato production becomes less attractive.
 
-Despite this crossing, the optimization model selected 10 tomato beds because the solution considers all farm constraints and crop interactions rather than marginal cost alone.
+The Tomato Marginal Cost schedule currently shows marginal cost crossing the tomato price of $8,800 between beds 5 and 6. Specifically, marginal cost at bed 5 is approximately $8,623, while marginal cost at bed 6 is approximately $9,812.
 
+However, Solver selected 10 tomato beds in the optimal solution. Because a price-taking producer should continue production until price is approximately equal to marginal cost, this inconsistency suggests that either the marginal-cost schedule or the optimization model requires further review.
+
+The workbook's Solver solution remains 10 tomato beds, but the marginal-cost schedule currently indicates that tomato production becomes uneconomic after approximately 5-6 beds.
 ## Tomato Marginal Cost Curve
 
 <img width="1653" height="993" alt="image" src="https://github.com/user-attachments/assets/ec3a0fd5-cd8a-4d30-b406-36aff4048d2d" />
