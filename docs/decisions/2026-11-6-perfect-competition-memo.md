@@ -1,11 +1,11 @@
 # Perfect Competition Recommendation Memo
 
 ## Judgement Call
-Increasing the carrot bed cap from 20 to 21 did not increase profit.
+The carrot and mesclun bed caps were tested by increasing each cap by one additional bed and re-running Solver.
 
-Increasing the mesclun bed cap from 30 to 31 also did not increase profit.
+Neither change increased profit or altered the optimal solution.
 
-Because neither additional bed increased profit, neither cap should be prioritized for expansion at this time. The farm would benefit more from evaluating other constraints or changes in crop economics before investing in additional capacity.
+Under current conditions, neither constraint provides enough additional value to justify expansion. Additional beds should not be purchased unless crop prices, labor costs, or production economics change.
 
 ## Recommendation
 
