@@ -51,8 +51,13 @@ I then increased the mesclun bed cap from 30 to 31 and ran Solver again. The opt
 
 Because neither change increased profit, both additional beds had a shadow price of approximately $0. This suggests that relaxing either cap would not increase profit under the current conditions.
 
-
 This suggests that an additional mesclun bed has a shadow price of approximately $0 and does not increase profit. Relaxing the mesclun cap would therefore provide little or no economic benefit.
+
+To evaluate the value of relaxing constraints, I increased the carrot bed cap from 20 to 21 and re-ran Solver. The optimal solution remained 10 tomatoes, 20 carrots, and 30 mesclun, and profit did not increase.
+
+I then increased the mesclun bed cap from 30 to 31 and re-ran Solver. The optimal solution again remained unchanged.
+
+Because neither additional bed increased profit, both constraints had an estimated shadow price of approximately $0 under the current assumptions.
 
 ## Does Any Marginal Cost Curve Fall? 
 The tomato marginal cost curve briefly falls between beds 5 and 6 before rising again.
