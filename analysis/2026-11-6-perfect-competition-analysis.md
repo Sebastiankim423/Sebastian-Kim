@@ -10,7 +10,7 @@ This result is consistent with the Solver solution, which also selected 10 tomat
 
 <img width="1653" height="993" alt="image" src="https://github.com/user-attachments/assets/ec3a0fd5-cd8a-4d30-b406-36aff4048d2d" />
 
-- The tomato marginal cost curve crosses the tomato price line near 6 beds.
+- The tomato marginal cost curve crosses the tomato price line between beds 10 and 11.
 
 ## Carrot Marginal Cost Cruve
 
@@ -65,6 +65,12 @@ This demonstrates that a marginal cost curve can be influenced by changes in bot
 If the full fixed cost were assigned to a single crop, that crop might not make a profit on its own. However, the planting decision is based on marginal cost rather than fixed cost.
 
 Fixed costs must be paid regardless of whether one more bed is planted. Therefore, the decision to plant another bed should compare price to marginal cost rather than price to average total cost.
+
+The carrot price exceeds average variable cost at 20 beds.
+
+The mesclun price exceeds average variable cost at 30 beds.
+
+Because price covers average variable cost for both crops, production should continue even if fixed costs are ignored.
 
 ## Recommendation 
 The recommended planting strategy is:
