@@ -72,6 +72,16 @@ The mesclun price exceeds average variable cost at 30 beds.
 
 Because price covers average variable cost for both crops, production should continue even if fixed costs are ignored.
 
+Carrot average variable cost (AVC) at 20 beds was $489.14
+
+Carrot price was $2,094 per bed. Because price exceeded AVC, carrot production remained profitable in the short run.
+
+Mesclun average variable cost (AVC) at 30 beds was $945.32
+
+Mesclun price was $2,700 per bed. Because price exceeded AVC, mesclun production remained profitable in the short run.
+
+This shows that production decisions should be based on price compared with marginal cost and average variable cost rather than fixed costs.
+
 ## Recommendation 
 The recommended planting strategy is:
 
