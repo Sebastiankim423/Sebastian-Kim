@@ -6,4 +6,3 @@ Exercised in:
 - docs/Briefs/2026-11-09-research-brief.md
 - drafts/2026-11-09-draft.md
 - analysis/research-paper.pdf
-- [docs/Briefs/2026-11-09-research-brief.md](https://copilot.cloud.microsoft/docs/Briefs/2026-11-09-research-brief.md)
