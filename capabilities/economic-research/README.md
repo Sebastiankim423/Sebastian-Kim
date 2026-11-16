@@ -3,8 +3,6 @@ This capability demonstrates economic research, policy analysis, market evaluati
 
 Exercised in:
 
-Research Brief
-
-Draft
-
-Research Paper
+- docs/briefs/2026-11-09-research-brief.md
+- drafts/2026-11-09-draft.md
+- analysis/research-paper.pdf
