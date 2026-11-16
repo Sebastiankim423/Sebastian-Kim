@@ -7,4 +7,4 @@ docs/briefs/2026-11-09-research-brief.md
 
 drafts/2026-11-09-draft.md
 
-analysis/research-paper.pdf
+analysis/BUS 620 Individual Research Paper.pdf
