@@ -3,6 +3,6 @@ This capability demonstrates economic research, policy analysis, market evaluati
 
 Exercised in:
 
-- docs/Briefs/2026-11-09-research-brief.md
+- [docs/Briefs/2026-11-09-research-brief.md](https://github.com/Sebastiankim423/Sebastian-Kim/blob/main/docs/Briefs/2026-11-09-research-brief.md)
 - drafts/2026-11-09-draft.md
 - analysis/research-paper.pdf
