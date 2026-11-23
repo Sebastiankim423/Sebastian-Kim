@@ -1,12 +1,11 @@
 # Perfect Competition Recommendation Memo
 
 ## Judgement Call
-The carrot and mesclun bed caps were tested by increasing each cap by one additional bed and re-running Solver.
+The carrot and mesclun bed caps were tested by raising each cap by one bed and re-running Solver.
 
-Neither change increased profit or altered the optimal solution.
+Each extra bed raised season profit: about $353 for a carrot bed and about $247 for a mesclun bed. Extra beds of either crop are worth adding while a bed earns more than it costs.
 
-Under current conditions, neither constraint provides enough additional value to justify expansion. Additional beds should not be purchased unless crop prices, labor costs, or production economics change.
-
+The bed limit (64) and the labor limit (6,480 hours) are not binding, so there is room to use extra beds. Buying more carrot or mesclun beds is a good use of money, up to where marginal cost meets price.
 ## Recommendation
 
 Plant: 
