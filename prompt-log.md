@@ -123,7 +123,10 @@ AI helped organize the GitHub repository structure and supporting documentation.
 
 ### Errors Caught on Final Research Paper
 
-Suggested edits and drafted paragraph text, which I then rewrote in your own words.
+Suggested edits and drafted paragraph text, which I then rewrote in my own words.
+
 My Leichtman citation attached the 5,035,000 loss to 2025, but it's the 2023 figure.
+
 My Figure 3 value of 619 isn't in the FRED series.
+
 Had Claude AI look over the final paper and make some edits to verbiage. 
