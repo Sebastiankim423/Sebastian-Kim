@@ -120,3 +120,10 @@ What I Did: I reviewed the structure and connected repository artifacts to the c
 ### Research Paper Reflection
 
 AI helped organize the GitHub repository structure and supporting documentation. All research content was verified against my original paper, course materials, and cited sources. I confirmed that the economic concepts, figures, and recommendation matched the evidence presented in the paper before adding them to the repository. The repository now documents the full process from framing the problem to the final recommendation.
+
+### Errors Caught on Final Research Paper
+
+Suggested edits and drafted paragraph text, which I then rewrote in your own words.
+My Leichtman citation attached the 5,035,000 loss to 2025, but it's the 2023 figure.
+My Figure 3 value of 619 isn't in the FRED series.
+Had Claude AI look over the final paper and make some edits to verbiage. 
