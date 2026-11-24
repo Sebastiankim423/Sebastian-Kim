@@ -10,9 +10,13 @@ This result is consistent with the Solver solution, which also selected 10 tomat
 
 ## Tomato Marginal Cost Curve
 
+![Tomato marginal cost curve](figures/tomato-mc.png)
+
 - The tomato marginal cost curve crosses the tomato price line between beds 10 and 11.
 
 ## Carrot Marginal Cost Curve
+
+![Carrot marginal cost curve](figures/carrot-mc.png)
 
 - The carrot marginal cost curve crosses the carrot price line near 10 beds.
 
