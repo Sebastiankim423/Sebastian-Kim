@@ -6,20 +6,22 @@ Tomatoes generate the highest revenue per bed at $8,800. The Tomato Marginal Cos
 
 Because the tomato price is $8,800, price is greater than marginal cost at bed 10 but lower than marginal cost at bed 11. This indicates that the profit-maximizing production level is approximately 10 tomato beds, where P ≈ MC.
 
-This result is consistent with the Solver solution, which also selected 10 tomato beds.
+This result is consistent with the Solver solution, which also selected 10 tomato beds. Figure 1 below plots this against the $8,800 price.
 
 ## Tomato Marginal Cost Curve
 
+**Figure 1.** Tomato marginal cost versus the $8,800 price
 ![Tomato marginal cost curve](figures/tomato-mc.png)
 
-- The tomato marginal cost curve crosses the tomato price line between beds 10 and 11.
+- In Figure 1, the tomato marginal cost curve crosses the tomato price line between beds 10 and 11.
 
 ## Carrot Marginal Cost Curve
 
+**Figure 2.** Carrot marginal cost versus the $2,094 price
 ![Carrot marginal cost curve](figures/carrot-mc.png)
 
-- The carrot marginal cost curve crosses the carrot price line near 10 beds.
-
+- In Figure 2, the carrot marginal cost curve crosses the carrot price line near 10 beds, stays above it through bed 16, then falls below it at bed 17.
+  
 ## Comparison with Initial Hypothesis
 
 My original hypothesis predicted:
@@ -57,7 +59,7 @@ Yes. All three curves fall once, at the point where a crop's labor passes the fa
 
 This is not because the beds become easier to grow. Diminishing returns keep raising the hours each bed needs, and marginal cost climbs again after each dip.
 
-The carrot dip is why the carrot answer is 21 and not about 10. Beds 11 to 16 each cost more than the $2,094 price, so each one loses money. The beds after the dip cost less than the price and earn more than the losses, so the 21 beds as a group still cover their variable cost.
+As Figure 2 shows, the carrot dip is why the carrot answer is 21 and not about 10. Beds 11 to 16 each cost more than the $2,094 price, so each one loses money. The beds after the dip cost less than the price and earn more than the losses, so the 21 beds as a group still cover their variable cost.
 
 ## Would Each Crop Make Money on Its Own?
 
