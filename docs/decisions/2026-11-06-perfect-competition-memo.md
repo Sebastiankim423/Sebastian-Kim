@@ -10,7 +10,7 @@ The bed limit (64) and the labor limit (6,480 hours) are not binding, so there i
 
 Plant: 
 - 10 Tomato Beds
-- 20 Carrot Beds
+- 21 Carrot Beds
 - 30 Mesclun Beds
 ## Why
 
