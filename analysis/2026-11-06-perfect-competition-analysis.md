@@ -42,7 +42,7 @@ The carrot bed cap binds: with the cap at 21, Solver plants all 21 carrot beds. 
 
 The total bed constraint does not bind: the model uses 61 of the 64 beds. The labor constraint does not bind: total labor is about 5,352 hours against the 6,480-hour limit.
 
-To value the two binding caps, I re-ran Solver with the cap raised by one bed. Solver's constraints now point at the Inputs sheet, so changing a cap there changes the solution.
+To value the two binding caps, I re-ran Solver with the cap raised by one bed. I re-ran Solver with each cap raised by one bed.
 - Carrot cap 20 to 21 (mesclun 30): Solver plants 10 / 21 / 30 and season profit rises from $42,775 to about $43,128. One more carrot bed is worth about $353.
 - Mesclun cap 30 to 31 (carrot 20): Solver plants 10 / 20 / 31 and season profit rises from $42,775 to about $43,022. One more mesclun bed is worth about $247.
 
